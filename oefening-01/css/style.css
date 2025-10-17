@@ -1,0 +1,21 @@
+body{
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+}
+
+div{
+    width: 400px;
+    height: 150px;
+    background-color: #5bb9a9;
+    animation: stretch 1s infinite;
+}
+
+@keyframes stretch {
+    0%, 100%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(2);
+    }
+}

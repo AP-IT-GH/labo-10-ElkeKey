@@ -1,0 +1,17 @@
+body{
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s;
+}
+
+div:hover{
+    border-radius: 50%;
+    background-color: blue;
+}

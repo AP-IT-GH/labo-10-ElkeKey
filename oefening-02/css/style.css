@@ -1,0 +1,24 @@
+body{
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+div{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    animation: fade-slide 2s infinite;
+}
+
+@keyframes fade-slide {
+    from{
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    to{
+        opacity: 100%;
+        transform: translate(0px);
+    }
+}

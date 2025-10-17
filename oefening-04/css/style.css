@@ -1,0 +1,30 @@
+body{
+    min-height: 100dvh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cubes{
+    box-shadow: 0px 2px 5px #0003;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+.left:hover{
+    transform: translateX(-20px);
+}
+
+.up:hover{
+    transform: translateY(-20px);
+
+}
+
+.right:hover{
+    transform: translateX(20px);
+
+}
